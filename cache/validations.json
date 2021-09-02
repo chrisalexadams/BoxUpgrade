@@ -1,0 +1,409 @@
+{
+  "version": "3.2",
+  "log": [
+    {
+      "Initializable": {
+        "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:17",
+        "inherit": [],
+        "libraries": [],
+        "methods": [],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "contract": "Initializable",
+              "label": "_initialized",
+              "type": "t_bool",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:21"
+            },
+            {
+              "contract": "Initializable",
+              "label": "_initializing",
+              "type": "t_bool",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:26"
+            }
+          ],
+          "types": {
+            "t_bool": {
+              "label": "bool"
+            }
+          },
+          "layoutVersion": "1.1"
+        }
+      },
+      "BoxV1": {
+        "src": "contracts/BoxV1.sol:6",
+        "version": {
+          "withMetadata": "a2d8156e174768285429eed8e4f10c9ae989a6466cf8dc0472045d2af44fbda2",
+          "withoutMetadata": "26090922125c7ec019a9a62f99cc0f3951b6fe9a3a05ff6144ed3ccfc1a8023d",
+          "linkedWithoutMetadata": "26090922125c7ec019a9a62f99cc0f3951b6fe9a3a05ff6144ed3ccfc1a8023d"
+        },
+        "inherit": [
+          "Initializable"
+        ],
+        "libraries": [],
+        "methods": [
+          "initialize(uint256,uint256)"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "contract": "BoxV1",
+              "label": "length",
+              "type": "t_uint256",
+              "src": "contracts/BoxV1.sol:7"
+            },
+            {
+              "contract": "BoxV1",
+              "label": "width",
+              "type": "t_uint256",
+              "src": "contracts/BoxV1.sol:8"
+            }
+          ],
+          "types": {
+            "t_uint256": {
+              "label": "uint256"
+            }
+          },
+          "layoutVersion": "1.1"
+        }
+      }
+    },
+    {
+      "Initializable": {
+        "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:17",
+        "inherit": [],
+        "libraries": [],
+        "methods": [],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "contract": "Initializable",
+              "label": "_initialized",
+              "type": "t_bool",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:21"
+            },
+            {
+              "contract": "Initializable",
+              "label": "_initializing",
+              "type": "t_bool",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:26"
+            }
+          ],
+          "types": {
+            "t_bool": {
+              "label": "bool"
+            }
+          },
+          "layoutVersion": "1.1"
+        }
+      },
+      "BoxV1": {
+        "src": "contracts/BoxV1.sol:6",
+        "version": {
+          "withMetadata": "a2d8156e174768285429eed8e4f10c9ae989a6466cf8dc0472045d2af44fbda2",
+          "withoutMetadata": "26090922125c7ec019a9a62f99cc0f3951b6fe9a3a05ff6144ed3ccfc1a8023d",
+          "linkedWithoutMetadata": "26090922125c7ec019a9a62f99cc0f3951b6fe9a3a05ff6144ed3ccfc1a8023d"
+        },
+        "inherit": [
+          "Initializable"
+        ],
+        "libraries": [],
+        "methods": [
+          "initialize(uint256,uint256)"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "contract": "BoxV1",
+              "label": "length",
+              "type": "t_uint256",
+              "src": "contracts/BoxV1.sol:7"
+            },
+            {
+              "contract": "BoxV1",
+              "label": "width",
+              "type": "t_uint256",
+              "src": "contracts/BoxV1.sol:8"
+            }
+          ],
+          "types": {
+            "t_uint256": {
+              "label": "uint256"
+            }
+          },
+          "layoutVersion": "1.1"
+        }
+      },
+      "BoxV2": {
+        "src": "contracts/BoxV2.sol:6",
+        "version": {
+          "withMetadata": "e47e6fb38c2a6ccb4398a756a16fd1203cf15a70b688a595f40b5a26084f8093",
+          "withoutMetadata": "9e8c1fae77c010aa6c80c6d42b37f42290807a59a1c9704eee003cda7152c842",
+          "linkedWithoutMetadata": "9e8c1fae77c010aa6c80c6d42b37f42290807a59a1c9704eee003cda7152c842"
+        },
+        "inherit": [
+          "Initializable"
+        ],
+        "libraries": [],
+        "methods": [
+          "initialize(uint256,uint256)",
+          "area()"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "contract": "BoxV2",
+              "label": "length",
+              "type": "t_uint256",
+              "src": "contracts/BoxV2.sol:7"
+            },
+            {
+              "contract": "BoxV2",
+              "label": "width",
+              "type": "t_uint256",
+              "src": "contracts/BoxV2.sol:8"
+            }
+          ],
+          "types": {
+            "t_uint256": {
+              "label": "uint256"
+            }
+          },
+          "layoutVersion": "1.1"
+        }
+      }
+    },
+    {
+      "Initializable": {
+        "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:17",
+        "inherit": [],
+        "libraries": [],
+        "methods": [],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "contract": "Initializable",
+              "label": "_initialized",
+              "type": "t_bool",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:21"
+            },
+            {
+              "contract": "Initializable",
+              "label": "_initializing",
+              "type": "t_bool",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:26"
+            }
+          ],
+          "types": {
+            "t_bool": {
+              "label": "bool"
+            }
+          },
+          "layoutVersion": "1.1"
+        }
+      },
+      "BoxV1": {
+        "src": "contracts/BoxV1.sol:6",
+        "version": {
+          "withMetadata": "d989889ac2bb114df4b6b0d9f2c392f2e67cc20240bf5d040a981ee65e9a8518",
+          "withoutMetadata": "26090922125c7ec019a9a62f99cc0f3951b6fe9a3a05ff6144ed3ccfc1a8023d",
+          "linkedWithoutMetadata": "26090922125c7ec019a9a62f99cc0f3951b6fe9a3a05ff6144ed3ccfc1a8023d"
+        },
+        "inherit": [
+          "Initializable"
+        ],
+        "libraries": [],
+        "methods": [
+          "initialize(uint256,uint256)"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "contract": "BoxV1",
+              "label": "length",
+              "type": "t_uint256",
+              "src": "contracts/BoxV1.sol:7"
+            },
+            {
+              "contract": "BoxV1",
+              "label": "width",
+              "type": "t_uint256",
+              "src": "contracts/BoxV1.sol:8"
+            }
+          ],
+          "types": {
+            "t_uint256": {
+              "label": "uint256"
+            }
+          },
+          "layoutVersion": "1.1"
+        }
+      },
+      "BoxV2": {
+        "src": "contracts/BoxV2.sol:6",
+        "version": {
+          "withMetadata": "f9de16b3bd35835c5af66cf98942f7d287e4249fbae071cf60c20d98c92ca8de",
+          "withoutMetadata": "9e8c1fae77c010aa6c80c6d42b37f42290807a59a1c9704eee003cda7152c842",
+          "linkedWithoutMetadata": "9e8c1fae77c010aa6c80c6d42b37f42290807a59a1c9704eee003cda7152c842"
+        },
+        "inherit": [
+          "Initializable"
+        ],
+        "libraries": [],
+        "methods": [
+          "initialize(uint256,uint256)",
+          "area()"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "contract": "BoxV2",
+              "label": "length",
+              "type": "t_uint256",
+              "src": "contracts/BoxV2.sol:7"
+            },
+            {
+              "contract": "BoxV2",
+              "label": "width",
+              "type": "t_uint256",
+              "src": "contracts/BoxV2.sol:8"
+            }
+          ],
+          "types": {
+            "t_uint256": {
+              "label": "uint256"
+            }
+          },
+          "layoutVersion": "1.1"
+        }
+      }
+    },
+    {
+      "Initializable": {
+        "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:17",
+        "inherit": [],
+        "libraries": [],
+        "methods": [],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "contract": "Initializable",
+              "label": "_initialized",
+              "type": "t_bool",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:21"
+            },
+            {
+              "contract": "Initializable",
+              "label": "_initializing",
+              "type": "t_bool",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:26"
+            }
+          ],
+          "types": {
+            "t_bool": {
+              "label": "bool"
+            }
+          },
+          "layoutVersion": "1.1"
+        }
+      },
+      "BoxV1": {
+        "src": "contracts/BoxV1.sol:6",
+        "version": {
+          "withMetadata": "a2d8156e174768285429eed8e4f10c9ae989a6466cf8dc0472045d2af44fbda2",
+          "withoutMetadata": "26090922125c7ec019a9a62f99cc0f3951b6fe9a3a05ff6144ed3ccfc1a8023d",
+          "linkedWithoutMetadata": "26090922125c7ec019a9a62f99cc0f3951b6fe9a3a05ff6144ed3ccfc1a8023d"
+        },
+        "inherit": [
+          "Initializable"
+        ],
+        "libraries": [],
+        "methods": [
+          "initialize(uint256,uint256)"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "contract": "BoxV1",
+              "label": "length",
+              "type": "t_uint256",
+              "src": "contracts/BoxV1.sol:7"
+            },
+            {
+              "contract": "BoxV1",
+              "label": "width",
+              "type": "t_uint256",
+              "src": "contracts/BoxV1.sol:8"
+            }
+          ],
+          "types": {
+            "t_uint256": {
+              "label": "uint256"
+            }
+          },
+          "layoutVersion": "1.1"
+        }
+      },
+      "BoxV2": {
+        "src": "contracts/BoxV2.sol:6",
+        "version": {
+          "withMetadata": "e47e6fb38c2a6ccb4398a756a16fd1203cf15a70b688a595f40b5a26084f8093",
+          "withoutMetadata": "9e8c1fae77c010aa6c80c6d42b37f42290807a59a1c9704eee003cda7152c842",
+          "linkedWithoutMetadata": "9e8c1fae77c010aa6c80c6d42b37f42290807a59a1c9704eee003cda7152c842"
+        },
+        "inherit": [
+          "Initializable"
+        ],
+        "libraries": [],
+        "methods": [
+          "initialize(uint256,uint256)",
+          "area()"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "contract": "BoxV2",
+              "label": "length",
+              "type": "t_uint256",
+              "src": "contracts/BoxV2.sol:7"
+            },
+            {
+              "contract": "BoxV2",
+              "label": "width",
+              "type": "t_uint256",
+              "src": "contracts/BoxV2.sol:8"
+            }
+          ],
+          "types": {
+            "t_uint256": {
+              "label": "uint256"
+            }
+          },
+          "layoutVersion": "1.1"
+        }
+      }
+    }
+  ]
+}
