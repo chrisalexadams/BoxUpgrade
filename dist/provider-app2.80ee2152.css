@@ -1,0 +1,30 @@
+#account {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #5a5858;
+  margin: 10px;
+}
+
+.button, .play, .join, .logout {
+  margin: 10px;
+  border-radius: 30px;
+  background-color: #00ff37;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  color: white;
+  cursor: pointer;
+}
+
+.logout {
+  background-color: red;
+}
+
+.join {
+  background-color: #013f0f;
+}
+
+.play {
+  color: black;
+}
+
+/*# sourceMappingURL=/PROVIDER-APP2.80ee2152.css.map */

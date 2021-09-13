@@ -1,0 +1,35 @@
+#account {
+    padding: 10px;
+    border-radius: 10px;
+    background-color:rgb(90, 88, 88);
+    margin: 10px;
+}
+
+.button, .play, .join, .logout {
+    margin: 10px;
+    border-radius: 30px;
+    background-color: rgb(0, 255, 55);
+    padding: 10px 20px;
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+}
+
+//.button{
+  //width: 150px;
+  //text-align: center;
+  //margin:0 auto;
+
+//}
+
+.logout {
+    background-color: red;
+}
+
+.join {
+    background-color: rgb(1, 63, 15);
+}
+
+.play {
+    color: black;
+}
